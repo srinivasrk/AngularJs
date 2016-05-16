@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Testing Angular JS </title>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0-beta.5/angular.min.js"></script>
+		  <script src="test_controller.js"></script>
+	</head>
+	<body>
+		<div ng-app="myApp">
+			<div  ng-controller="testcontroller">
+				<span ng-bind="{{a+b}}"></span>
+			</div>
+			<div  ng-controller="testcontroller1">
+				<span ng-bind="{{a+b}}"></span>
+			</div>
+		</div>
+		
+	</body>
+</html>
