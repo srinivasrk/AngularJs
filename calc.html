@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<title> Simple Calculator </title>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0-beta.5/angular.min.js"></script>
+		<script src="calc_controller.js"></script>
+	</head>
+	<body>
+		<div ng-app="calc" ng-controller="calc_controller">
+		<h3> Simple Calculator </h3>
+		<br /> <br />
+			Num 1 :  <input type="text" ng-model="num1" />
+			<br /> <br />
+			Num 2 :  <input type="text" ng-model="num2" />
+			<br /><br /><br />
+			<input type="button" value="Add a + b" ng-click="add()"/>
+			
+		</div>
+	</body>
+</html>
